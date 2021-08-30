@@ -1,8 +1,6 @@
 package chapter6method.num1extractmethod.before
 
-data class Order(
-    val amount: Double
-)
+import chapter6method.Order
 
 interface Printable {
     fun println(text: String)
@@ -39,10 +37,10 @@ class Accounting(
 
 fun main() {
     val orders = listOf(
-        Order(10_000.0),
-        Order(5_000.0),
-        Order(20_000.0),
-        Order(1_000.0)
+        Order(10_000.0, 100_0.0),
+        Order(5_000.0, 100_0.0),
+        Order(20_000.0, 100_0.0),
+        Order(1_000.0, 100_0.0)
     )
     val accounting = Accounting("John", orders, Printer())
     accounting.printOwing()

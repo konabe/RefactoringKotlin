@@ -1,3 +1,4 @@
+import chapter6method.Order
 import chapter6method.num1extractmethod.after.*
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
@@ -6,10 +7,10 @@ import kotlin.test.assertEquals
 internal class ExtractMethodTest {
     private lateinit var printer: MockPrinter
     private val normalOrders = listOf(
-        Order(10_000.0),
-        Order(5_000.0),
-        Order(20_000.0),
-        Order(1_000.0)
+        Order(10_000.0, 100_0.0),
+        Order(5_000.0, 100_0.0),
+        Order(20_000.0, 100_0.0),
+        Order(1_000.0, 100_0.0)
     )
     private val normalName = "John"
 
