@@ -1,4 +1,4 @@
-package chapter6method.extractmethod
+package chapter6method.num1extractmethod.before
 
 data class Order(
     val amount: Double

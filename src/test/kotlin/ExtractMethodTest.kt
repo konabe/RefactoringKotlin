@@ -1,6 +1,4 @@
-import chapter6method.extractmethod.Accounting
-import chapter6method.extractmethod.Order
-import org.junit.jupiter.api.Assertions
+import chapter6method.num1extractmethod.after.*
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
@@ -34,7 +32,7 @@ internal class ExtractMethodTest {
     }
 }
 
-private class MockPrinter: chapter6method.extractmethod.Printable {
+private class MockPrinter: Printable {
     var printlnCallCount = 0
     var printlnVarArgs: MutableList<String> = mutableListOf()
     override fun println(text: String) {
