@@ -146,3 +146,12 @@ outTmp/
 /test.output
 /kotlin-native/dist
 kotlin-ide/
+
+# ref. https://github.com/googlecodelabs/android-kotlin-notifications/blob/master/.gitignore
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/buildOutputCleanup/cache.properties
+.gradle/buildOutputCleanup/outputFiles
+.gradle/7.1/fileHashes/fileHashes.bin
+.gradle/7.1/fileHashes/fileHashes.lock
+.gradle/7.1/executionHistory/executionHistory.bin
+.gradle/7.1/executionHistory/executionHistory.lock
