@@ -6,3 +6,6 @@
 - 「局所的拡張の導入 Introduce Local Extension」は、サブクラスかラッパーを作って既存のクラスの拡張をする方法。
 - 「自己カプセル化フィールド Self Encapsulate Field」は、プロパティが提供されているので不要。
 - 「オブジェクトによる配列の置き換え Replace Array with Object」は、もはやありえないのでやらない。配列の要素番号で区別されているものを治す方法なので。
+- 「シンボリック定数によるマジックナンバーの置き換え Replace Magic Number with Symbolic Constant」かんたんすぎるので採用しない。
+- 「フィールドのカプセル化 Encapsulate Field」プロパティを公開するのと同じ。
+- 
