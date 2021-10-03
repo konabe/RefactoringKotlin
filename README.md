@@ -8,4 +8,5 @@
 - 「オブジェクトによる配列の置き換え Replace Array with Object」は、もはやありえないのでやらない。配列の要素番号で区別されているものを治す方法なので。
 - 「シンボリック定数によるマジックナンバーの置き換え Replace Magic Number with Symbolic Constant」かんたんすぎるので採用しない。
 - 「フィールドのカプセル化 Encapsulate Field」プロパティを公開するのと同じ。
+- 「データクラスによるレコードの置き換え Replace Record with Data Class」構造体のようなものをデータクラスに一旦置き換えるだけ。
 - 
