@@ -15,3 +15,5 @@
 - 「パラメータの削除 Remove Parameter」
 - 「setメソッドの削除 Remove Setting Method」コンストラクタでしか設定できないようにするだけ。kotlinはコンストラクタに強いためそこまで問題にはならないかと。
 - 「メソッドの隠蔽 Hide Method」カプセル化するだけ。
+- 「ダウンキャストのカプセル化 Encapsulate Downcast」ダウンキャストはカプセル化しろということだけ。
+- 「条件判定による例外の置き換え Replace Exception with Test」例外の使いすぎがよくないよねってだけ
