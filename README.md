@@ -10,3 +10,8 @@
 - 「フィールドのカプセル化 Encapsulate Field」プロパティを公開するのと同じ。
 - 「データクラスによるレコードの置き換え Replace Record with Data Class」構造体のようなものをデータクラスに一旦置き換えるだけ。
 - 「表明の導入 Introduce Assertion」Assertionを入れることでコミュニケーションとデバッグに使うことができる。
+- 「メソッド名の変更 Rename Method」
+- 「パラメータの追加 Add Parameter」
+- 「パラメータの削除 Remove Parameter」
+- 「setメソッドの削除 Remove Setting Method」コンストラクタでしか設定できないようにするだけ。kotlinはコンストラクタに強いためそこまで問題にはならないかと。
+- 「メソッドの隠蔽 Hide Method」カプセル化するだけ。
