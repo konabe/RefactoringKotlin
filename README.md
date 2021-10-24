@@ -17,3 +17,7 @@
 - 「メソッドの隠蔽 Hide Method」カプセル化するだけ。
 - 「ダウンキャストのカプセル化 Encapsulate Downcast」ダウンキャストはカプセル化しろということだけ。
 - 「条件判定による例外の置き換え Replace Exception with Test」例外の使いすぎがよくないよねってだけ
+- 「フィールドの引き上げ Pull Up Field」サブクラスにあるフィールドをスーパークラスに移動する。
+- 「メソッドの引き上げ Pull Up Method」サブクラスにあるフィールドをスーパークラスに移動する。
+- 「メソッドの引き下げ Push Down Method」
+- 「フィールドの引き下げ Push Down Field」
